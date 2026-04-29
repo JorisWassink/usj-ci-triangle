@@ -14,7 +14,7 @@ var SCALENE = 'Scalene triangle';
  */
 function getTriangleType(lengthA, lengthB, lengthC) { 
   var type = '';
-  // In Javascript isNaN returns true if the argument is Not a Number (NaN)
+  // In Javascript isNaN returns true if the argument is Not a Number (NaN) 
   if ( isNaN(lengthA) || isNaN(lengthB) || isNaN(lengthC) ) { //Inputs are not numbers
     type = INVALID_ARGUMENTS;
   } else { // Inputs are numbers
